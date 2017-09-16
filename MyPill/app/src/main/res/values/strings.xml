@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MyPill</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="dias_array">
+        <item>1 día</item>
+        <item>2 días</item>
+        <item>3 días</item>
+        <item>4 días</item>
+        <item>5 días</item>
+        <item>6 días</item>
+        <item>7 días</item>
+        <item>8 días</item>
+        <item>9 días</item>
+        <item>10 días</item>
+        <item>11 días</item>
+        <item>12 días</item>
+        <item>13 días</item>
+        <item>14 días</item>
+        <item>15 días</item>
+        <item>16 días</item>
+        <item>17 días</item>
+        <item>18 días</item>
+        <item>19 días</item>
+        <item>20 días</item>
+        <item>30 días</item>
+        <item>Todos los días</item>
+    </string-array>
+
+    <string-array name="estado_array">
+        <item>Cada hora</item>
+        <item>Cada 2 horas</item>
+        <item>Cada 3 horas</item>
+        <item>Cada 4 horas</item>
+        <item>Cada 6 horas</item>
+        <item>Cada 8 horas</item>
+        <item>Cada 12 horas</item>
+        <item>Cada día</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hoy"
+            android:icon="@drawable/hoy"
+            android:title="Hoy" />
+        <item
+            android:id="@+id/nav_tratamiento"
+            android:icon="@drawable/tratamiento"
+            android:title="Tratamiento" />
+        <item
+            android:id="@+id/nav_diario"
+            android:icon="@drawable/diario"
+            android:title="Diario" />
+        <item
+            android:id="@+id/nav_informe"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Informe" />
+        <item
+            android:id="@+id/nav_equipo"
+            android:icon="@drawable/equipo"
+            android:title="Equipo" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_ajustes"
+                android:icon="@drawable/ajustes"
+                android:title="Ajustes" />
+        </menu>
+    </item>
+
+</menu>

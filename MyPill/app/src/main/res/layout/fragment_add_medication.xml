@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mypill.mypill.AddMedication">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:gravity="left">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left">
+        <TextView
+            android:id="@+id/txtMedicina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicina"
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:id="@+id/edMedicina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:hint="Medicina"
+            />
+    </RelativeLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left">
+            <TextView
+                android:id="@+id/txtMetodo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Método de toma"
+                android:layout_alignParentLeft="true"
+                />
+            <EditText
+                android:id="@+id/edMetodo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_alignParentRight="true"
+                android:hint="Método de toma"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left">
+            <TextView
+                android:id="@+id/txtDuracion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duración"
+                android:layout_alignParentLeft="true"
+                />
+            <Spinner
+                android:id="@+id/spinerDuracion"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left">
+            <TextView
+                android:id="@+id/txtEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                android:layout_alignParentLeft="true"
+                />
+            <Spinner
+                android:id="@+id/spinerEstado"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnHoraToma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_add"
+                android:drawableLeft="@drawable/add"
+                android:text="Añadir hora de la toma"
+                android:textAllCaps="false"
+                android:textColor="@color/appColor"
+                android:gravity="center"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_add"
+            android:text="Guardar"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"
+            android:textColor="@color/appColor"
+            android:gravity="bottom"
+            android:textSize="15dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

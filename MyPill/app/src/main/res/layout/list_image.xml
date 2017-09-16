@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:paddingRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imgList"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            />
+            <TextView
+                android:id="@+id/txtName"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Medicina"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemSuministrada" android:orderInCategory="100" android:title="Dosis suministrada"></item>
+    <item android:id="@+id/itemOlvidada" android:orderInCategory="100" android:title="Olvido tomar dosis"></item>
+</menu>

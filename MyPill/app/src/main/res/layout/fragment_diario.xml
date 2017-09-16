@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mypill.mypill.DiarioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHooy"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_diario"
+                android:text="Hoy"
+                style="?android:attr/borderlessButtonStyle"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/Btn7dias"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_diario"
+                android:text="7 días"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/Btn30dias"
+                android:layout_width="70dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_diario"
+                android:text="30 días"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/Btnanio"
+                android:layout_width="70dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_diario"
+                android:text="1 año"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_progressbar_drawable"
+            android:secondaryProgress="0" />
+
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+</FrameLayout>
